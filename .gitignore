@@ -1,0 +1,102 @@
+# =============================
+# Node / Express
+# =============================
+
+# Node modules
+node_modules/
+jspm_packages/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary folders
+tmp/
+temp/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# =============================
+# React / Frontend
+# =============================
+
+# Build output
+/build
+/public/build
+
+# Static cache
+.cache
+.next
+.out
+*.tsbuildinfo
+
+# Dependency directories
+node_modules/
+
+# Local env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Misc
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# =============================
+# PostgreSQL
+# =============================
+
+# Dump / backup files
+*.sql
+*.dump
+*.backup
+
+# Postgres data directories (if local dev data)
+pgdata/
+data/
+
+# Ignore psql history
+.psql_history
+
+# Ignore database credentials (if you accidentally store them)
+*.pgpass
+
+# =============================
+# Other
+# =============================
+*.bak
+*.tmp
+*.orig
+*.rej
