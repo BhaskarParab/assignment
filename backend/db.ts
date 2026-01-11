@@ -1,11 +1,11 @@
 import { Pool } from "pg";
 
 export const pool = new Pool({
-  user: 'bhaskar',
-  host: 'localhost',
-  database: 'assignment',
-  password: 'test8899', // MUST be string
-  port: 5432,
+  user: process.env.DB_USER,
+  host: process.env.DB_HOST,
+  database: process.env.DB_NAME,
+  password: process.env.DB_PASSWORD, // must be string
+  port: Number(process.env.DB_PORT),
 });
 
 // quick startup connectivity check to provide a clear log when DB is unreachable
