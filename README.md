@@ -61,8 +61,6 @@ The frontend is the **primary focus**, with the backend acting as a supportive A
 
 ---
 
----
-
 ## Getting Started
 
 ### 1. Clone the Repository
@@ -108,6 +106,7 @@ cd ../frontend
 npm install   # or pnpm install
 npm run dev
 ```
+---
 
 ## 📈 Scaling Notes
 - Frontend is modular; adding new pages/components is simple
